@@ -1,0 +1,21 @@
+body {
+    background-color: grey
+}
+table {
+    width: 1000px;
+    height: 200px;
+    border-collapse: collapse;
+}
+td {
+    text-align: center
+}
+table, th, td {
+    border: 1px;
+    border-collapse: collapse
+}
+th, td {
+    padding: 10px;
+}
+tr:nth-child(even) {
+    background-color: whitesmoke
+}
